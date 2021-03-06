@@ -1,0 +1,15 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),NAT Gateway,Amazon Virtual Private Cloud (VPC),0,70.2,842.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3 Bucket,S3 Standard,0,0.05,0.60,USD,S3 Standard storage (2 GB per month)
+My Estimate,US East (N. Virginia),S3 Bucket,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,648.88,7786.56,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (c5.xlarge)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,633.11,7597.32,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t3.xlarge)"
+My Estimate,US East (N. Virginia),RDS Database with Replica,Amazon RDS for MySQL,0,5489.25,65871.00,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (8), Instance type (db.m1.xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (30 GB)"
+My Estimate,US East (N. Virginia),Load Balancers,Application Load Balancer,0,266.45,3197.40,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Auto Scaled Web Instances,Amazon EC2,0,1016.8,12201.60,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (c5.xlarge)"
+My Estimate,US East (N. Virginia),Auto Scaled Application Instances,Amazon EC2,0,1008.62,12103.44,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.2xlarge)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

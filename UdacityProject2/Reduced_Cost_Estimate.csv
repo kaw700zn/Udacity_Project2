@@ -1,0 +1,18 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),NAT Gateway,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3 Bucket,S3 Standard,0,0.05,0.6,USD,S3 Standard storage (2 GB per month)
+My Estimate,US East (N. Virginia),S3 Bucket,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,648.88,7786.56,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (c5.xlarge)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,6825.79,24,7113.79,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year Full Upfront), Storage amount (30 GB), Instance type (t3.xlarge)"
+My Estimate,US East (N. Virginia),RDS Database with Replica,Amazon RDS for MySQL,0,5489.25,65871,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (8), Instance type (db.m1.xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (30 GB)"
+My Estimate,US East (N. Virginia),Load Balancers,Application Load Balancer,0,266.45,3197.4,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Auto Scaled Web Instances,Amazon EC2,7008,24,7296,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year Full Upfront), Storage amount (30 GB), Instance type (c5.xlarge)"
+My Estimate,US East (N. Virginia),Auto Scaled Application Instances,Amazon EC2,11023.58,24,11311.58,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year Full Upfront), Storage amount (30 GB), Instance type (t4g.2xlarge)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+"Just by changing the upfront payments on EC2 instances I was able to get within the budget. Other ways of getting within the budget is to reduce the number of EC2 instances and make auto scaling more prominent. Also, choosing different types",,,,,,,,
+of EC2 instances in favor of burstable approach would help too.,,,,,,,,
